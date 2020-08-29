@@ -1,0 +1,148 @@
+/* секции */
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Герой */
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--second-bg-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  /* убрать после завершения
+  outline: 1px solid red; */
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--main-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 0 solid transparent;
+
+  color: var(--main-white-color);
+  background-color: var(--hover-text-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  min-width: 200px;
+  min-height: 50px;
+}
+
+/* Особенности */
+
+.features-list {
+  display: flex;
+}
+
+.features-list .title {
+  margin-top: 0;
+  margin-bottom: 10;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.features-list .item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+}
+
+.features-list .item:nth-child(4n) {
+  margin-right: 0;
+}
+
+/* Чем мы занимаемся */
+
+.section.no-padding {
+  padding-top: 0;
+}
+
+.work-examples {
+  display: flex;
+}
+
+.work-examples .item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.work-examples .item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+/* Наша команда */
+
+.our-team {
+  background-color: var(--third-bg-color);
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list .item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.team-list .item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-list .member {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+}
+
+.team-list > li {
+  background-color: var(--main-white-color);
+}
+
+.our-team .text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.18;
+}
